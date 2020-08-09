@@ -160,6 +160,9 @@
     .cg-hero{
         height: 50vh;
     }
+    .cg-hero-header{
+        padding-top: 190px;
+      }
     .cg-hero-header h1{
         font-size: 35px;
         
