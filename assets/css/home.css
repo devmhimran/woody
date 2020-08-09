@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    f font-family: 'Raleway';
+}
+.cg-hero{
+    background: linear-gradient(rgba(94, 137, 141, 0.6),
+    rgba(94, 137, 141, 0.6))
+    , url(../img/hero-3.jpg);
+    height: 100vh;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
+	background-position:  center center;
+}
+.cg-hero-header{
+    padding-top: 250px;
+  }
+  .cg-hero-header h1{
+    font-size: 55px;
+    font-weight: 600;
+    color: #fff;
+  }
+  .cg-hero-header p{
+      color: #fff;
+      font-size: 20px;
+  }
+  .hero-btn {
+    background-color: #5E888C;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+    cursor: pointer;
+  
+  }
+  .hero-btn1 {
+    color: white;
+  
+  }
+  .hero-btn1:hover{
+  
+    text-decoration: none;
+    background-color: #4c7376;
+    color: white;
+    transition:  all 0.4s ease;
+  }
+  .cg-feature-products{
+      margin-top: 100px;
+      margin-bottom: 100px;
+  }
+  .cg-feature-products .cg-feature-products-header h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #A89FA9;
+    text-align: center;
+  }
+
+.cg-feature-products .divider {
+    width: 300px;
+    height: 3px;
+    background-color: #A89FA9;
+    text-align: center;
+    margin: 20px auto 50px;
+}
+.card-product-grid{
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.4s;
+}
+.card-product-grid:hover{
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 #5e898d;
+    transition: 0.4s;
+}
+.card-product-grid .img-wrap img{
+    object-fit: cover;
+    transition:  all 1.2s ease;
+}
+.card-product-grid .img-wrap img:hover{
+    transform: scale(1.2);
+    transition:  all 1.2s ease;
+}
+.card-product-grid .info-wrap .price{
+ font-family: 'Roboto';
+}
+.cg-feature-products-all-btn{
+    margin: 50px auto 0px;
+    text-align: center;
+}
+.cg-recent-blog{
+    background-color: rgba(94, 137, 141, 0.15);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+
+.cg-recent-blog .cg-recent-blog-header h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #A89FA9;
+    text-align: center;
+  }
+
+.cg-recent-blog .divider {
+    width: 300px;
+    height: 3px;
+    background-color: #A89FA9;
+    text-align: center;
+    margin: 20px auto 50px;
+}
+/* .blog-main:hover{
+    filter: blur(5px);
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
+    margin: 5px;
+    background-color: #262524;
+} */
+.cg-recent-blog-main img{
+    width: 100%;
+    border: 1px solid #A89FA9;
+    transition: 0.4s;
+}
+.cg-recent-blog-main img:hover{
+    
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.4s;
+}
+.cg-recent-blog-main .blog-name {
+    margin-top: 15px;
+    margin-bottom: 5px !important;
+
+}
+.cg-recent-blog-main .blog-name a{
+    color: #262524;
+    font-weight: 600;
+    transition: 0.4s;
+}
+.cg-recent-blog-main .blog-name a:hover{
+    color: #5E888C;
+    transition: 0.4s;
+}
+.cg-recent-blog-main .blog-time{
+    color: #A89FA9;
+    font-family: 'Roboto';
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+/* ========== RESPONSIVE PART START ========== */
+@media screen and (max-width: 900px){
+    .cg-hero{
+        height: 60vh;
+    }
+}
+@media screen and (max-width: 600px){
+    .cg-hero{
+        height: 50vh;
+    }
+    .cg-hero-header h1{
+        font-size: 35px;
+        
+      }
+      .cg-hero-header p{;
+          font-size: 15px;
+      }
+      .cg-feature-products .cg-feature-products-header h2{
+        font-size: 30px;
+      }
+      .cg-feature-products .divider {
+        width: 200px;      
+    }
+      .cg-recent-blog .cg-recent-blog-header h2{
+        font-size: 30px;   
+      }
+      .cg-recent-blog .divider {
+        width: 200px;
+        
+    }
+}
+/* ========== RESPONSIVE PART END ========== */
