@@ -2,7 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    f font-family: 'Raleway';
+   font-family: 'Raleway';
+}
+.upperhead{
+    background-color: #5E888C;
+    display: block;
+}
+.upperhead ul li {
+    display: inline;
+    padding: 10px;
+    
+}
+.upperhead ul li a{
+    color: #fff;
+    line-height: 50px;
+    text-align: right;
 }
 .cg-hero{
     background: linear-gradient(rgba(94, 137, 141, 0.6),
@@ -12,23 +26,33 @@
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-size: cover;
-	background-position:  center center;
+    background-position:  center center;
+
 }
 .cg-hero-header{
-    padding-top: 250px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 700px;
+    background: linear-gradient(rgba(94, 137, 141, 0.6),
+    rgba(94, 137, 141, 0.6));
+    text-align: center;
+    padding: 50px;
   }
   .cg-hero-header h1{
     font-size: 55px;
     font-weight: 600;
     color: #fff;
+    text-align: center;
   }
   .cg-hero-header p{
       color: #fff;
       font-size: 20px;
   }
   .hero-btn {
-    background-color: #5E888C;
-    color: white;
+    color: #5E888C;
+    background-color: white;
     padding: 8px 20px;
     text-align: center;
     text-decoration: none;
@@ -36,10 +60,11 @@
     font-size: 16px;
     margin: 2px 2px;
     cursor: pointer;
+    text-align: center;
   
   }
   .hero-btn1 {
-    color: white;
+    color: #5E888C;
   
   }
   .hero-btn1:hover{
@@ -54,26 +79,36 @@
       margin-bottom: 100px;
   }
   .cg-feature-products .cg-feature-products-header h2{
-    font-size: 40px;
+    font-size: 35px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #A89FA9;
+    color: #5E888C;
     text-align: center;
   }
 
 .cg-feature-products .divider {
-    width: 300px;
-    height: 3px;
-    background-color: #A89FA9;
+    width: 500px;
+    height: 2px;
+    background-color: #5E888C;
     text-align: center;
     margin: 20px auto 50px;
 }
 .card-product-grid{
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    border: none;
     transition: 0.4s;
+    height: 370px !important;
+    text-align: center;
+}
+.cg-feature-products .rating-stars{
+    margin-bottom: 12px;
+    
+}
+.cg-feature-products .rating-stars li i{
+    padding: 10px;
 }
 .card-product-grid:hover{
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 #5e898d;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 2px 8px 0 #5e898d;
     transition: 0.4s;
 }
 .card-product-grid .img-wrap img{
@@ -81,44 +116,42 @@
     transition:  all 1.2s ease;
 }
 .card-product-grid .img-wrap img:hover{
-    transform: scale(1.2);
+    
     transition:  all 1.2s ease;
 }
-.card-product-grid .info-wrap .price{
- font-family: 'Roboto';
+.card-product-grid .price{
+    color: #ACA7A7;
+    font-family: 'Roboto';
+    font-weight: 400;
+    display: block;
+    margin-bottom: 10px;
 }
 .cg-feature-products-all-btn{
     margin: 50px auto 0px;
     text-align: center;
 }
 .cg-recent-blog{
-    background-color: rgba(94, 137, 141, 0.15);
-    padding-top: 100px;
+    /* background-color: rgba(94, 137, 141, 0.15); */
     padding-bottom: 100px;
     
 }
 
 .cg-recent-blog .cg-recent-blog-header h2{
-    font-size: 40px;
+    font-size: 35px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #A89FA9;
+    color: #5E888C;
     text-align: center;
   }
 
 .cg-recent-blog .divider {
-    width: 300px;
-    height: 3px;
-    background-color: #A89FA9;
+    width: 500px;
+    height: 2px;
+    background-color: #5E888C;
     text-align: center;
     margin: 20px auto 50px;
 }
-/* .blog-main:hover{
-    filter: blur(5px);
-    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
-    margin: 5px;
-    background-color: #262524;
-} */
+
 .cg-recent-blog-main img{
     width: 100%;
     border: 1px solid #A89FA9;
@@ -130,24 +163,28 @@
     transition: 0.4s;
 }
 .cg-recent-blog-main .blog-name {
-    margin-top: 15px;
+    margin-top: 20px;
     margin-bottom: 5px !important;
+    text-align: center;
+    
 
 }
 .cg-recent-blog-main .blog-name a{
-    color: #262524;
+    color: #5E888C;
     font-weight: 600;
     transition: 0.4s;
+    
 }
 .cg-recent-blog-main .blog-name a:hover{
-    color: #5E888C;
-    transition: 0.4s;
+    color: #346D72;
+    transition: 0.2s;
 }
 .cg-recent-blog-main .blog-time{
     color: #A89FA9;
     font-family: 'Roboto';
     font-weight: 300;
     margin-bottom: 15px;
+    text-align: center;
 }
 
 /* ========== RESPONSIVE PART START ========== */
@@ -155,13 +192,24 @@
     .cg-hero{
         height: 60vh;
     }
+    .cg-hero-header{
+        /* padding-top: 190px; */
+        top: 45%;
+        width: 520px;
+      }
+    .cg-
 }
 @media screen and (max-width: 600px){
+    .upperhead{
+        display: none;
+    }
     .cg-hero{
         height: 50vh;
     }
     .cg-hero-header{
-        padding-top: 190px;
+        /* padding-top: 190px; */
+        top: 35%;
+        width: 340px;
       }
     .cg-hero-header h1{
         font-size: 35px;
@@ -175,6 +223,9 @@
       }
       .cg-feature-products .divider {
         width: 200px;      
+    }
+    .card-product-grid{
+        margin: 0px auto 0px;
     }
       .cg-recent-blog .cg-recent-blog-header h2{
         font-size: 30px;   

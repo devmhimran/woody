@@ -1,4 +1,4 @@
-/* Common Color Code #c3232a
+/* Common Color Code 
 #5E888C
 */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
@@ -163,7 +163,7 @@
   .hide-menu-btn{
       position: absolute;
       top: 40px;
-      right: 50px;
+      right: 65px;
   }
   #chk:checked ~ .cg-menu{
       right: 0;
