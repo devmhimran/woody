@@ -75,21 +75,34 @@
 
   transition:  all 0.4s ease;
 }
+
+/* ========== UPPER HEADER START ========== */
+.upperhead{
+  background-color: #5E888C;
+  display: block;
+}
+.upperhead ul li {
+  display: inline;
+  padding: 10px;
+  
+}
+.upperhead ul li a{
+  color: #fff;
+  line-height: 50px;
+  text-align: right;
+}
+/* ========== UPPER HEADER END ========== */
+
 /* ======== Nav Bar Start ======== */
 .cg-header{
   height: 100px;
   padding: 0 20px;
   
 }
-.logo{
-  line-height: 100px;
+.logo img{
+  margin-top: 30px;
+  width: 12%;
   float: left;
-  text-transform: uppercase;
-  color: #262524;
-  font-weight: 900;
-}
-.logo span{
-  color: #5E888C;
 }
 .cg-menu{
   float: right;
@@ -262,7 +275,7 @@
 }
 .social-icon1:hover {
   background-color: #5E888C;
-  color: white;
+  color: #fff;
   text-decoration: none;
   transition:  all 0.4s ease;
 }
@@ -292,6 +305,14 @@
   }
 }
 @media screen and (max-width: 600px){
+  .upperhead{
+    display: none;
+  }
+  .logo img{
+    margin-top: 30px;
+    width: 40%;
+    float: left;
+  }
   .section-footer{
     display: none;
     background-color: #262524;

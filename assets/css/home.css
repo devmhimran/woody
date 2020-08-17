@@ -4,20 +4,7 @@
     box-sizing: border-box;
    font-family: 'Raleway';
 }
-.upperhead{
-    background-color: #5E888C;
-    display: block;
-}
-.upperhead ul li {
-    display: inline;
-    padding: 10px;
-    
-}
-.upperhead ul li a{
-    color: #fff;
-    line-height: 50px;
-    text-align: right;
-}
+
 .cg-hero{
     background: linear-gradient(rgba(94, 137, 141, 0.6),
     rgba(94, 137, 141, 0.6))
@@ -204,12 +191,14 @@
         display: none;
     }
     .cg-hero{
-        height: 50vh;
+        height: 40vh;
+        
     }
     .cg-hero-header{
         /* padding-top: 190px; */
-        top: 35%;
+        top: 29%;
         width: 340px;
+        /* top:40%; */
       }
     .cg-hero-header h1{
         font-size: 35px;

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Woody</title>
-    <script src="assets/js/jquery-3.5.1.slim.min.js" ></script>
+    <script src="assets/js/jquery-2.0.0.min.js" ></script>
     <script src="assets/js/bootstrap.bundle.min.js" ></script>
 
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -13,6 +13,15 @@
     <link rel="stylesheet" href="assets/css/ui/responsive.css">
     <link rel="stylesheet" href="assets/css/trash.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src='assets/js/jquery.zoom.min.js'></script>
+    <script>
+		$(document).ready(function(){
+			$('#ex1').zoom();
+			$('#ex2').zoom({ on:'grab' });
+			$('#ex3').zoom({ on:'click' });			 
+			$('#ex4').zoom({ on:'toggle' });
+		});
+	</script>
 </head>
 <body>
 
@@ -38,6 +47,27 @@
 
     </div>
     
+    <div class="container">
+        <div class="card shadow" style= "object-fit: cover; width: 400px; height: 400px; overflow: hidden; ">
+            
+            <div class="card-body">
+                <div class="image-box">
+                    <span class='zoom' id='ex1'>
+                        <img src='assets/img/product-image/4.jpg' width='400' height='400' alt='Daisy on the Ohoopee'/>
+                        <p>Hover</p>
+                    </span>
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+
+
+
+    <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
 
 </body>
 </html>

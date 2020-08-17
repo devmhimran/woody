@@ -1109,7 +1109,7 @@ a[class*='card'] {
 /* ================== PAGE DETAILS ==================  */
 .gallery-wrap .img-big-wrap {
   margin-bottom: 10px;
-  border-radius: 0.37rem;
+  border-radius: 0;
   overflow: hidden;
   background-color: #fff; }
   .gallery-wrap .img-big-wrap a {
