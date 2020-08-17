@@ -200,13 +200,13 @@
     .cg-hero-header{
         /* padding-top: 190px; */
         top: 34.5%;
-        width: 360px;
+        width: 340px;
         height: 210px;
         padding-top: -20px;
         /* top:40%; */
       }
     .cg-hero-header h1{
-        font-size: 25px;
+        font-size: 20px;
         
       }
       .cg-hero-header p{;
