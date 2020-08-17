@@ -212,6 +212,9 @@
       .cg-hero-header p{;
           font-size: 12px;
       }
+      .hero-btn {
+        font-size: 12px;  
+      }
       .Product-card{
         margin-top: 10px;
       }
