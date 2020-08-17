@@ -196,16 +196,18 @@
     }
     .cg-hero-header{
         /* padding-top: 190px; */
-        top: 29%;
-        width: 340px;
+        top: 35%;
+        width: 400px;
+        height: 210px;
+        padding-top: -20px;
         /* top:40%; */
       }
     .cg-hero-header h1{
-        font-size: 35px;
+        font-size: 25px;
         
       }
       .cg-hero-header p{;
-          font-size: 15px;
+          font-size: 12px;
       }
       .cg-feature-products .cg-feature-products-header h2{
         font-size: 30px;
