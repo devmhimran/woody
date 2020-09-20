@@ -75,6 +75,28 @@
 
   transition:  all 0.4s ease;
 }
+.flex-center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    z-index: 9999;
+}
+
 
 /* ========== UPPER HEADER START ========== */
 .upperhead{
@@ -176,7 +198,7 @@
   .hide-menu-btn{
       position: absolute;
       top: 40px;
-      right: 65px;
+      right: 40px;
   }
   #chk:checked ~ .cg-menu{
       right: 0;
@@ -244,10 +266,8 @@
   padding-top: 50px;
   padding-bottom: 40px;
 }
-.section-footer .footer-logo{
-  text-transform: uppercase;
-  color: #fff;
-  font-weight: 900;
+.section-footer .main-footer-logo img{
+  width: 45%;
 }
 .section-footer .footer-logo span{
   color: #5E888C;
@@ -275,7 +295,7 @@
 }
 .social-icon1:hover {
   background-color: #5E888C;
-  color: #fff;
+  color: white;
   text-decoration: none;
   transition:  all 0.4s ease;
 }
@@ -298,6 +318,11 @@
 
 /* ========== RESPONSIVE PART START ========== */
 @media screen and (max-width: 900px){
+  .logo img{
+    margin-top: 30px;
+    width: 23%;
+    float: left;
+  }
   .mobile-footer{
     display: none;
     background-color: #262524;
@@ -326,6 +351,13 @@
   }
   .mobile-footer .footer-logo{
     text-align: center;
+  }
+  .mobile-footer .footer-logo img{
+    width: 40%;
+    margin: 0px auto 20px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
   }
   .mobile-footer .social-part{
     text-align: center;

@@ -1,12 +1,13 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Woody</title>
+    <link rel=" shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
     <script src="assets/js/jquery-2.0.0.min.js" ></script>
     <script src="assets/js/bootstrap.bundle.min.js" ></script>
-
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/fontawesome/css/all.css">
     <link rel="stylesheet" href="assets/css/ui/ui.css">
@@ -14,30 +15,74 @@
     <link rel="stylesheet" href="assets/css/trash.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <script src='assets/js/jquery.zoom.min.js'></script>
-    <script>
-		$(document).ready(function(){
-			$('#ex1').zoom();
-			$('#ex2').zoom({ on:'grab' });
-			$('#ex3').zoom({ on:'click' });			 
-			$('#ex4').zoom({ on:'toggle' });
-		});
-	</script>
+    <script src="assets/js/jquery.preloadinator.min.js" type="text/javascript"></script>
+    
+    <!-- script src="assets/js/jquery.preloadinator.js"></script> -->
+  <script>
+    $(document).ready(function(){
+      $('#ex1').zoom();
+      $('#ex2').zoom({ on:'grab' });
+
+    });
+  </script>
+   <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  
 </head>
 <body>
 
+
+    
+        <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script> -->
+        
+        
+ 
+   
+
+
+
+
+  <!-- ========== UPPER NAV START ========== -->
+  <div class="upperhead">
+    <div class="container">
+     <ul class="text-right">
+         <li><a href="">CAD</a></li>
+         <li><a href="">SEARCH</a></li>
+         <li><a href="">GIFT CERTIFICATE</a></li>
+         <li><a href="">ACCOUNT</a></li>
+         <li><a href="">ADD TO CARD</a></li>
+     </ul>
+    </div>
+ </div>
+  <!-- ========== UPPER NAV END ========== -->
+  <!-- ========== Nav Bar Start ========== -->
     <div class="cg-header">
         <div class="container">
-            <h2 class="logo"><span>Woo</span>dy</h2>
+            <div class="logo">
+                <img src="assets/img/logo.png" alt="">
+            </div>
         <input type="checkbox" id="chk">
         <label class="show-menu-btn" for="chk">
             <i class="fas fa-bars"></i>
         </label>
         <ul class="cg-menu">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Service</a>
-            <a href="#">Works</a>
-            <a href="#">Contact</a>
+            <a href="#">All Products</a>
+            <a href="#">Lightbulbs</a>
+            <a href="#">Pendants</a>
+            <a href="#">Table Lamps</a>
+            <a href="#">2016 Collection</a>
             <label for="chk" class="hide-menu-btn">
                 <i class="fas fa-times" ></i>
             </label>
@@ -46,28 +91,282 @@
         
 
     </div>
-    
+    <!-- ========== Nav Bar End   ========== -->
+
+  <!-- ========== LOGO AREA START ========== -->
+  <div class="container">
+    <div class="product-logo">
+      <a href="index.html"><img src="assets/img/logo.png" alt=""></a>
+    </div>
+  </div>
+  <!-- ========== LOGO AREA END ========== -->
+
+
+  <!-- ========== PRODUCT DETAIL AREA START ========== -->
+
+  <div class="product-area-detail">
     <div class="container">
-        <div class="card shadow" style= "object-fit: cover; width: 400px; height: 400px; overflow: hidden; ">
-            
-            <div class="card-body">
-                <div class="image-box">
-                    <span class='zoom' id='ex1'>
-                        <img src='assets/img/product-image/4.jpg' width='400' height='400' alt='Daisy on the Ohoopee'/>
-                        <p>Hover</p>
-                    </span>
-                </div>
-            </div>
-            
+      <div class="card">
+        <div class="row ">
+          <aside class="col-sm-12 col-md-6">
+      <article class="gallery-wrap"> 
+        <div class="img-big-wrap zoom" id='ex1'>
+          <a href="#"><img src="assets/img/product-image/3.jpg"></a>
+        </div> <!-- img-big-wrap.// -->
+        <!-- <div class="thumbs-wrap">
+          <a href="#" class="item-thumb"> <img src="assets/img/product-image/4.jpg"></a>
+          <a href="#" class="item-thumb"> <img src="assets/img/product-image/7.jpg"></a>
+          <a href="#" class="item-thumb"> <img src="assets/img/product-image/5.png"></a>
+          <a href="#" class="item-thumb"> <img src="assets/img/product-image/6.jpg"></a>
+        </div> -->
+      </article> <!-- gallery-wrap .end// -->
+          </aside>
+          <!-- <div class="col-md-1 m-0 border-right">
+              
+          </div> -->
+          <main class="col-md-6 col-sm-12  border-left   bg-white">
+      <article class="content-body">
+        <h2 class="title">RTX WHITE SOFA</h2>  
+      <div class="h3 mb-4 w-75"> 
+        <var class="price h4">$815.00</var>
+        <span class="text-muted stock">In Stock</span>
+        <hr>
+      </div> <!-- price-wrap.// -->
+    
+      <div class="form-row">
+        <div class="col-2 m-auto">
+          <div class="quantity">
+            <input class="w-100 button-outline button-outline1 m-auto" type="number" name="" id="" value="1">
+          </div>
+        </div> <!-- col.// -->
+        <div class="col">
+          <a href="#" class="button2 button-button2 w-100 "> <span class="text">Add to cart</span></a>
+        </div> <!-- col.// -->
+        <div class="col  m-auto">
+          <a href="#" class="button-outline button-outline1"> <i class="fas fa-heart"></i>  </a>
+        </div> <!-- col.// -->
+        
+      </div> <!-- row.// -->
+      <div class="mt-4 w-75">
+        <a href="#" class="button-outline button-outline1">Place Order</a>
+        <div class="payment-option">
+          <ul class="">
+            <li><a href="#"><i class="fab fa-cc-mastercard"></i></a></li>
+            <li><a href="#"><i class="fab fa-cc-visa"></i></a></li>
+            <li><a href="#"><i class="fas fa-credit-card"></i></a></li>
+          </ul>
         </div>
         
+      </div>
+      
+      </article> <!-- product-info-aside .// -->
+      
+          </main> <!-- col.// -->
+          
+        </div> <!-- row.// -->
+        
+        
+      </div> <!-- card.// -->
     </div>
+  </div>
+  
+
+<!-- ========== PRODUCT DETAIL AREA START ========== -->
+
+<br>
+<!-- ========== PRODUCT DESCRIPTION START ========== -->
+<div class="product-description">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9">
+        <div class="card">
+          <div class="container">
+            <div class="p-des-title mt-3">
+              <p>Product details of Caino Sofa Table Eagle Brown 917972 Good quality Table</p>
+            </div>
+            <div class="p-des-detail mt-4">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6">
+                    <ul>
+                      <li>Caino Sofa Table Eagle Brown 917972 Good quality TableItem code: 917972</li>
+                      <li>Brand: RFL Furniture</li>
+                      <li>Product Type: Sofa Table</li>
+                    </ul>
+                  </div>
+                  <div class="col-md-3">
+                    <ul>
+                      <li>Material: Durable Plastic</li>
+                      <li>Origin: Bangladesh</li>
+                      <li>Caino Sofa Table</li>
+                      <li>Dimension: 77 (L) x 57 (W) x 41(H) cm</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr>
+            <div class="p-des-img mb-3">
+              <img src="assets/img/product-image/3.jpg" alt="">
+              
+            </div>
+            <div class="view-more d-flex justify-content-center mb-5">
+              <a href="#" class="button-outline button-outline1">View More</a>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="card" style="width: 18rem;">
+          <div class="best-sellers mx-auto">
+            <h5>Best Sellers</h3>
+          </div>
+        </div>
+        <!-- ===== FIRST PRODUCT ===== -->
+        <div class="card card-product-grid" style="width: 18rem;">
+          <a href="#" class="img-wrap">
+              <img  src="assets/img/product-image/7.jpg">
+          </a>
+          <div class="card-body">
+              <ul class="rating-stars">
+                  <li style="width:80%" class="stars-active">
+                      <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                  </li>
+                  <li>
+                      <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                  </li>
+              </ul>
+              <h6 class="card-title"><a href="#" class="title">RTX GOLDEN SHOFA</a></h6>
+              <small class="price">Price : $84.00</small>                             
+              <a href="#" class="p-btn p-btn1">Product Detail</a>
+          </div>
+      </div>
+      <!-- ===== SECOND PRODUCT ===== -->
+        <div class="card card-product-grid" style="width: 18rem;">
+          <a href="#" class="img-wrap">
+              <img  src="assets/img/product-image/7.jpg">
+          </a>
+          <div class="card-body">
+              <ul class="rating-stars">
+                  <li style="width:80%" class="stars-active">
+                      <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                  </li>
+                  <li>
+                      <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                  </li>
+              </ul>
+              <h6 class="card-title"><a href="#" class="title">RTX GOLDEN SHOFA</a></h6>
+              <small class="price">Price : $84.00</small>                             
+              <a href="#" class="p-btn p-btn1">Product Detail</a>
+          </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+<!-- =========== PRODUCT DESCRIPTION END =========== -->
+
+<footer class="section-footer">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-4">
+              <div class="first-row text-light">
+                  <h3 class="footer-logo"><span>Woo</span>dy</h3>
+                  <p class="mt-3 text-left text-light">Some short text about company like You might remember the Dell computer commercials in which a youth reports this exciting news to his friends.</p>
+                      <div class="mb-3 text-left">
+                          <a class="social-icon social-icon1 " title="Facebook" target="_blank" href="#"><i class="fab fa-facebook-f"></i></a>
+                          <a class="social-icon social-icon1" title="Instagram" target="_blank" href="#"><i class="fab fa-instagram"></i></a>
+                          <a class="social-icon social-icon1" title="Twitter" target="_blank" href="#"><i class="fab fa-twitter"></i></a>
+                      </div>
+              </div>
+          </div>
+              <div class="col-md-2">
+                  <div class="second-row text-light">
+                      <h6 class="sr-title text-left ">About</h6>
+            <ul class="list-unstyled text-left">
+              <li> <a href="#">About us</a></li>
+              <li> <a href="#">Services</a></li>
+              <li> <a href="#">Rules and terms</a></li>
+              <li> <a href="#">Blogs</a></li>
+            </ul>
+                  </div>
+              </div>
+              <div class="col-md-2">
+                  <div class="third-row text-light">
+                      <h6 class="tr-title">For users</h6>
+            <ul class="list-unstyled text-left">
+              <li> <a href="#"> User Login </a></li>
+              <li> <a href="#"> User register </a></li>
+              <li> <a href="#"> Account Setting </a></li>
+              <li> <a href="#"> My Orders </a></li>
+              <li> <a href="#"> My Wishlist </a></li>
+            </ul>
+                  </div>
+              </div>
+              <div class="col-md-2">
+                  <h6 class="title text-left">For users</h6>
+        <ul class="list-unstyled text-left">
+          <li> <a href="#"> User Login </a></li>
+          <li> <a href="#"> User register </a></li>
+          <li> <a href="#"> Account Setting </a></li>
+          <li> <a href="#"> My Orders </a></li>
+          <li> <a href="#"> My Wishlist </a></li>
+        </ul>
+              </div>
+              <div class="col-md-2">
+                  <div class="fifth-row">
+                      <h6 class="title text-left">Our app</h6>
+            <a href="#" class="d-block mb-2 text-left"><img src="assets/img/misc/appstore.png" height="40"></a>
+            <a href="#"  class="d-block mb-2 text-left"><img src="assets/img/misc/playmarket.png" height="40"></a>
+                  </div>
+              </div>
+      </div>
+      <hr>
+          <section class="container footer-copyright">
+              <p id="reserve" class="float-left text-muted">All Right Reserved</p>
+              <p target="_blank" class="float-right text-muted">
+               Made with by Team Codergem <i class="fas fa-heart"></i> by Team Codergem
+                  
+              </p>
+          </section>
+  </div>
+</footer>
 
 
 
-    <a href="#"><i class="fab fa-facebook-f"></i></a>
-    <a href="#"><i class="fab fa-instagram"></i></a>
-    <a href="#"><i class="fab fa-twitter"></i></a>
+
+<!-- =========================Mobile FOOTER ========================= -->
+
+
+<footer class="mobile-footer">
+    <div class="container">
+        <h3 class=" footer-logo mb-3 "><span>Woo</span>dy</h3>
+        <div class="social-part mb-2">
+            <a class="social-icon social-icon1 " title="Facebook" target="_blank" href="#"><i class="fab fa-facebook-f"></i></a>
+            <a class="social-icon social-icon1" title="Instagram" target="_blank" href="#"><i class="fab fa-instagram"></i></a>
+            <a class="social-icon social-icon1" title="Twitter" target="_blank" href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+
+    </div>
+    <hr>
+    <section class="container footer-copyright">
+        <p id="reserve" class="text-muted">All Right Reserved</p>
+        <p target="_blank" class="text-muted">
+         Made with by Team Codergem <i class="fas fa-heart"><br></i> by Team Codergem
+            
+        </p>
+    </section>
+</footer>
+<div class="preloader js-preloader flex-center">
+            <img src="assets/img/pre-loader/pre-loader.gif">
+</div>
+<!-- =========================Mobile FOOTER END // ========================= -->
 
 </body>
+<script>
+    $('.js-preloader').preloadinator({
+              minTime: 2000
+    });
+  </script>
 </html>

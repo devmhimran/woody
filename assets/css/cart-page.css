@@ -1,0 +1,41 @@
+.product-cart{
+    background:rgba(94, 137, 141, 0.10);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.itemside .info p{
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+.itemside .info span{
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+.card-body dt{
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+.card-body dt span{
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+.card-body dd strong{
+    font-family: 'Roboto';
+    font-weight: 500;
+    
+}
+.dropdown-menu .info .price{
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+.dropdown-menu .info i{
+    color: #5E888C ;
+}
+.dropdown-menu .price-wrap{
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+.dropdown-menu .price-wrap .price{
+    font-family: 'Roboto';
+    font-weight: 500;
+}

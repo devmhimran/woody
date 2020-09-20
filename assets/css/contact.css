@@ -1,0 +1,73 @@
+.contact-us{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    /* background-color: #f9f9f9; */
+}
+.contact-card .card-title h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: #5E888C;
+    text-transform: uppercase;
+}
+.contact-form{
+    padding: 20px;
+    
+}
+.contact-card .name{
+    width: 100%;
+    
+    border-bottom: 2px solid #5E888C;
+}
+.contact-card .name p{
+    font-weight: 500;
+}
+.contact-card .name input{
+    padding: 5px 10px;
+    width: 100%;
+    overflow: hidden;
+    border: none;
+    outline: none;   
+}
+.contact-card .name input:focus{
+    border: none;
+    padding: 5px 10px;
+}
+.contact-card .email{
+    width: 100%;
+    
+    border-bottom: 2px solid #5E888C;
+}
+.contact-card .email p{
+    font-weight: 500;
+}
+.contact-card .email input{
+    padding: 5px 10px;
+    width: 100%;
+    overflow: hidden;
+    border: none;
+    outline: none;   
+}
+.contact-card .email input:focus{
+    border: none;
+    padding: 5px 10px;
+}
+.contact-card .message{
+    width: 100%;
+    
+    border-bottom: 2px solid #5E888C;
+}
+.contact-card .message p{
+    font-weight: 500;
+}
+.contact-card .message textarea{
+    padding: 5px 10px;
+    width: 100%;
+    overflow: hidden;
+    border: none;
+    outline: none;   
+}
+.contact-card .message textarea:focus{
+    border: none;
+    padding: 5px 10px;
+}
+
